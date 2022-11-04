@@ -8,10 +8,10 @@ Original file is located at
 """
 
 import pandas as pd
-df=pd.read_csv("/content/training_data.csv")
+df=pd.read_csv("training_data.csv")
 x_train=df.iloc[:,:132]
 y_train =df.iloc[:,132:133]
-df1=pd.read_csv("/content/test_data.csv")
+df1=pd.read_csv("test_data.csv")
 x_test=df1.iloc[:,:132]
 y_test =df1.iloc[:,132:133]
 
